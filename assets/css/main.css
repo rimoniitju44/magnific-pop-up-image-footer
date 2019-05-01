@@ -1,0 +1,35 @@
+p {
+  text-align: center;
+  font-size: 70px;
+  margin-top: 0px;
+}
+
+
+/* footer section start */
+
+.footer-box .footer-title {
+
+  text-transform: uppercase;
+  color: #000;
+}
+
+.footer-box .footer-gallery ul li {
+  display: inline-block;
+}
+
+.footer-box .footer-gallery ul li a {
+  overflow: hidden;
+  display: inline-block;
+  margin: 5px;
+}
+
+.footer-box .footer-gallery ul li a img {
+  height: 80px;
+  border: none;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
